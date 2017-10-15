@@ -1,4 +1,4 @@
-# Price Checking Client
+# Price Checking Server
 
 ### Tools
 
@@ -10,4 +10,5 @@ sbt
 ### Run
 
 `sbt`
+
 `run`

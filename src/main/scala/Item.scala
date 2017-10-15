@@ -5,7 +5,7 @@ class Item(val code:String, val name:String, val price:Double){
      * @return String in the format to send
      */
     def sendDetail:String = {
-        return s"$code;$name;$price"
+        return s"Code: $code, Name: $name, Price:$price"
     }
 }
 
