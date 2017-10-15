@@ -4,6 +4,9 @@ import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 object Server extends App{
+
+    DatabaseDriver.setupDB()
+    
     val server = new ServerSocket(8888)
 
     while(true){
@@ -17,7 +20,7 @@ object Server extends App{
                 var line:Array[String] = is.readLine().split(";")
 
                 if(line(0) == "item"){
-                    
+
                 }else if(line(0) == "code"){
 
                 }

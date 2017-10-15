@@ -2,3 +2,5 @@ project/target
 project/project
 target/
 project/build.properties
+myDB
+derby.log
